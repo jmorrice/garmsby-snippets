@@ -1,0 +1,76 @@
+.align_left {
+	text-align: left;
+}
+
+.align_right {
+	text-align: right;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.float_right {
+	float: right;
+}
+
+.design_pod {
+	width: 200px;
+	margin: 10px 5px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+
+	//borders on inside of div to avoid expansion
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+
+	&:hover {
+		border-color: #333333;
+		-webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+		-moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+		box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+	}
+}
+
+.progress-bar {
+    background-color: #DDDDDD;
+    height: 12px;
+    width: 100%;
+    border-radius: 9px;
+    text-align: left;
+	display: inline-flex;
+	margin: 7px 0;
+}
+
+.progress-bar span {
+	background-color: #5fccaa;
+    display: inline-block;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.stats_table {
+	width: 100%;
+	line-height: 12px;
+	td {
+		width: 33%;
+		text-align: center;
+		vertical-align: middle;
+		padding: 4px;
+	}
+}
+
+.grey {
+	color: #BBBBBB;
+}

@@ -1,0 +1,289 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.align_left {
+  text-align: left;
+}
+.align_center {
+  text-align: center;
+}
+.align_right {
+  text-align: right;
+}
+.design_title {
+  margin-bottom: 5px;
+}
+.design_info {
+  height: 335px;
+}
+.bx-wrapper .bx-viewport {
+  border: solid black 1px;
+  left: -7px;
+  background: #fff;
+}
+.bx-wrapper .bx-controls-direction a {
+  top: 50%;
+}
+#bx-pager a:hover {
+  text-decoration: none;
+}
+#bx-pager img {
+  margin: 5px 0;
+}
+.like_button {
+  margin: auto;
+  border-radius: 50%;
+  width: 100px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.login-popup-link:hover {
+  text-decoration: none;
+}
+.unliked {
+  color: black;
+}
+.unliked:hover {
+  color: #fb5f5a;
+}
+.liked {
+  color: #fb5f5a;
+}
+.progress-bar {
+  background-color: #DDDDDD;
+  height: 20px;
+  width: 100%;
+  border-radius: 9px;
+  text-align: left;
+  display: inline-flex;
+  margin: 7px 0;
+}
+.progress-bar span {
+  background-color: #5fccaa;
+  display: inline-block;
+  height: 100%;
+  border-radius: 20px;
+}
+.stats_table {
+  width: 100%;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+.stats_table td {
+  width: 33%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+}
+.grey {
+  color: #BBBBBB;
+}
+#comment_name .comment_text {
+  padding-top: 6px;
+  margin-top: 15px;
+}
+#comment_name a img {
+  float: left;
+  padding-top: 5px;
+}
+#comment_name a .apple_medium {
+  font-family: AppleLiGothic;
+  font-weight: normal;
+  font-size: 20px;
+}
+#comment_name a p {
+  margin-left: 45px;
+}
+.odd .comment_text {
+  padding-top: 6px;
+  margin-top: 15px;
+}
+.odd a img {
+  float: right;
+  padding-top: 5px;
+}
+.odd a .apple_medium {
+  font-family: AppleLiGothic;
+  font-weight: normal;
+  font-size: 20px;
+}
+.odd a p {
+  margin-right: 55px;
+}
+.browse_arrow {
+  margin-top: 150px;
+  margin-bottom: 5px;
+}
+.even .comment_text {
+  padding-top: 6px;
+  margin-top: 15px;
+}
+.even a img {
+  float: left;
+  padding-top: 5px;
+}
+.even a .apple_medium {
+  font-family: AppleLiGothic;
+  font-weight: normal;
+  font-size: 20px;
+}
+.even a p {
+  margin-left: 45px;
+}
+#like_arrow {
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+}
+#like_now {
+  position: relative;
+  right: 10px;
+}
+.left_artist_col {
+  position: relative;
+  top: -15px;
+}
+#design_title {
+  padding-top: 10px;
+}
+#notify {
+  margin: auto;
+  margin-top: 10px;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+}
+#design_stats {
+  position: relative;
+  text-align: right;
+  padding-top: 15px;
+}
+#design_stats a:hover {
+  text-decoration: none;
+}
+#design_stats .like_nr,
+#design_stats .comment_nr {
+  padding: 0 10px 0 10px;
+  position: relative;
+  top: -7px;
+}
+.cbp_tmtimeline *,
+.cbp_tmtimeline *:after,
+.cbp_tmtimeline *:before {
+  box-sizing: content-box;
+}
+#design_name {
+  padding-right: 10px;
+}
+#designer_name {
+  position: relative;
+  bottom: 3px;
+}
+#story {
+  margin-top: 8px;
+}
+.design_previews {
+  margin-bottom: 20px;
+}
+.design_previews img {
+  border: 1px solid black;
+}
+.design_previews a:hover {
+  text-decoration: none;
+}
+.shop_preview {
+  border: 1px solid black;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  text-align: center;
+}
+#description {
+  margin-top: 30px;
+}
+.halfline {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.fullline {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#rank {
+  background-image: url("../img/individual/rank_bg.png");
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  padding: 2px 6px 2px 6px;
+  bottom: 8px;
+  margin-right: 5px;
+}
+#rank_wide {
+  background-image: url("../img/individual/rank_bg.png");
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  padding: 2px 6px 2px 0px;
+  bottom: 8px;
+  margin-right: 5px;
+}
+#previews {
+  padding-bottom: 10px;
+}
+.other_designs {
+  height: 60px;
+}
+#avatar {
+  height: 64px;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+#profile_info {
+  padding-top: 4px;
+}
+.more_by {
+  padding-bottom: 10px;
+}
+.more_by a:hover {
+  text-decoration: none;
+}
+.like_marg {
+  margin-right: 100px;
+}
+#stats span {
+  vertical-align: middle;
+}
+h1 {
+  font-size: 20px;
+}
+.pad-right {
+  padding-right: 92px;
+}
+.vertical-align {
+  vertical-align: middle;
+}
+.left_col {
+  text-align: left;
+}
+.right_col {
+  text-align: right;
+}
+.right_col_text {
+  text-align: right;
+  margin-left: 25px;
+}
